@@ -1,0 +1,69 @@
+:root {
+	--base-color: #242424;
+	--base-variant: #1f1f1f;
+	--base-variant-2: #121212;
+	--text-color: #ffffff;
+	--secondary-text: #d9d9d9;
+	--accent-color: #42f5b0;
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.lightmode {
+	--base-color: #ffffff;
+	--base-variant: #f0f0f0;
+	--base-variant-2: #e0e0e0;
+	--text-color: #000000;
+	--secondary-text: #333333;
+	--accent-color: #42f5b0;
+}
+
+body {
+	background-color: var(--base-variant-2);
+	color: var(--text-color);
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 1.1;
+	margin: 0;
+}
+
+a {
+	background-color: var(--base-variant-2);
+	text-decoration: inherit;
+}
+
+button {
+	background-color: var(--base-variant);
+}
+
+button,
+a {
+	border-radius: 8px;
+	border: 3px solid transparent;
+	color: var(--text-color);
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 0.6rem 1.2rem;
+	transition: border-color 0.25s;
+}
+button:hover,
+a:hover {
+	border-color: var(--accent-color);
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
