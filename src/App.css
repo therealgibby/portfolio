@@ -76,6 +76,13 @@
 	place-items: center;
 	gap: 1rem;
 }
+.links-section a {
+	border: var(--base-color) 3px solid;
+	box-shadow: var(--base-variant-2) 0px 2px 5px;
+}
+.links-section a:hover {
+	border-color: var(--accent-color);
+}
 .links-section a svg {
 	fill: var(--text-color);
 }
