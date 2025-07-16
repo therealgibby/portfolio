@@ -46,6 +46,7 @@ export default function App() {
 							<li>Node.js</li>
 							<li>Next.js</li>
 							<li>Vite</li>
+							<li>Express.js</li>
 							<li>Go</li>
 						</ul>
 					</div>
