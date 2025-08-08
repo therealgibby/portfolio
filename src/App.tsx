@@ -40,13 +40,13 @@ export default function App() {
 					<div id="tools-section">
 						<p>My primary tools include:</p>
 						<ul>
-							<li>Javascript</li>
 							<li>Typescript</li>
-							<li>React</li>
+							<li>Javascript</li>
+							<li>React.js</li>
 							<li>Node.js</li>
+							<li>Express.js</li>
 							<li>Next.js</li>
 							<li>Vite</li>
-							<li>Express.js</li>
 							<li>Go</li>
 						</ul>
 					</div>
